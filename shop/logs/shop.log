@@ -1,0 +1,44 @@
+2025-04-06 14:51:42,036 - INFO - Orders table created successfully.
+2025-04-16 14:36:37,930 - INFO - Orders table created successfully.
+2025-04-16 14:37:27,067 - INFO - Fetched product list.
+2025-04-16 14:37:57,694 - INFO - Fetched product list.
+2025-04-16 14:38:46,576 - INFO - Orders table created successfully.
+2025-04-16 14:38:55,876 - INFO - Fetched product list.
+2025-04-16 14:39:02,591 - INFO - Fetched product list.
+2025-04-16 14:39:51,528 - INFO - Received checkout for user: kaanan
+2025-04-16 14:39:51,536 - INFO - Order saved for user: kaanan
+2025-04-16 14:57:01,279 - INFO - Orders table created successfully.
+2025-04-16 14:57:12,112 - INFO - Fetched product list.
+2025-04-16 14:57:15,896 - INFO - Received checkout for user: kaanan
+2025-04-16 14:57:15,900 - INFO - Order saved for user: kaanan
+2025-05-01 13:15:06,073 - INFO - Orders table created successfully.
+2025-05-01 13:15:23,576 - INFO - Fetched product list.
+2025-05-01 13:15:32,305 - INFO - Received checkout for user: kaanan
+2025-05-01 13:15:32,309 - INFO - Order saved for user: kaanan
+2025-05-01 15:34:20,381 - INFO - Orders table created successfully.
+2025-05-01 15:34:57,102 - INFO - Fetched product list.
+2025-05-01 15:35:08,529 - INFO - Received checkout for user: kaanan
+2025-05-01 15:35:08,532 - INFO - Order saved for user: kaanan
+2025-05-11 21:19:23,432 - INFO - Orders table created or already exists in shared DB.
+2025-05-11 21:19:53,660 - INFO - Fetched product list.
+2025-05-11 21:19:57,871 - INFO - Received checkout for user: kaanan
+2025-05-11 21:19:57,877 - INFO - Order saved for user: kaanan
+2025-05-12 14:29:56,966 - INFO - Orders table created or already exists in shared DB.
+2025-05-12 14:39:55,393 - INFO - Orders table created or already exists in shared DB.
+2025-05-12 14:42:52,140 - INFO - Orders table created or already exists in shared DB.
+2025-05-12 14:43:13,562 - INFO - Fetched product list.
+2025-05-12 14:43:17,516 - INFO - Received checkout for user: kaanan
+2025-05-12 14:43:17,520 - INFO - Order saved for user: kaanan
+2025-05-12 14:46:36,886 - INFO - Orders table created or already exists in shared DB.
+2025-05-12 14:47:32,275 - INFO - Fetched product list.
+2025-05-12 14:47:36,011 - INFO - Received checkout for user: kaanan
+2025-05-12 14:47:36,015 - ERROR - Error saving order for user kaanan: 'username' is an invalid keyword argument for Order
+2025-05-12 14:52:37,918 - INFO - Orders table created or already exists in shared DB.
+2025-05-12 14:52:52,537 - INFO - Fetched product list.
+2025-05-12 14:52:56,097 - INFO - Received checkout for user: kaanan
+2025-05-12 14:52:56,108 - INFO - Order saved for user: kaanan
+2025-05-12 16:06:28,720 - shop - INFO - Orders table created or already exists in shared DB.
+2025-05-12 16:08:17,358 - shop - INFO - Orders table created or already exists in shared DB.
+2025-05-12 16:08:45,694 - shop - INFO - Fetched product list.
+2025-05-12 16:08:49,538 - shop - INFO - Received checkout for user: kaanan
+2025-05-12 16:08:49,548 - shop - INFO - Order saved for user: kaanan

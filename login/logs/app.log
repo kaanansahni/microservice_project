@@ -1,0 +1,230 @@
+2025-03-03 15:28:37,484 - main - INFO - Rendering login/register page.
+2025-03-03 15:29:18,344 - main - INFO - User kaanan attempting to log in.
+2025-03-03 15:29:18,364 - main - INFO - User kaanan logged in successfully.
+2025-03-03 18:41:38,287 - main - INFO - Rendering login/register page.
+2025-03-03 18:41:46,606 - main - INFO - User kaanan attempting to log in.
+2025-03-03 18:41:46,614 - main - INFO - User kaanan logged in successfully.
+2025-03-03 18:41:56,663 - main - INFO - User kaannnan attempting to log in.
+2025-03-03 18:41:56,677 - main - WARNING - Invalid login attempt for user: kaannnan
+2025-03-03 18:41:56,678 - main - ERROR - Error during login: 401: Invalid username or password
+2025-03-03 18:43:14,546 - main - INFO - Attempting to register user: zoom
+2025-03-03 18:43:14,558 - main - INFO - User zoom registered successfully
+2025-03-06 12:47:17,527 - main - INFO - Rendering login/register page.
+2025-03-06 12:47:27,214 - main - INFO - Attempting to register user: kaanan
+2025-03-06 12:47:27,228 - main - WARNING - Registration failed: User kaanan already exists.
+2025-03-06 12:47:27,229 - main - ERROR - Error during registration: 400: User already exists
+2025-03-06 13:24:24,069 - main - INFO - Attempting to register user: kaanan2
+2025-03-06 13:24:24,120 - main - INFO - User kaanan2 registered successfully
+2025-03-31 15:09:50,413 - main - INFO - Rendering login/register page.
+2025-03-31 15:10:44,846 - main - INFO - User kaanan attempting to log in.
+2025-03-31 15:10:44,861 - main - INFO - User kaanan logged in successfully.
+2025-03-31 15:10:52,815 - main - INFO - Attempting to register user: kaanan
+2025-03-31 15:10:52,816 - main - WARNING - Registration failed: User kaanan already exists.
+2025-03-31 15:10:52,816 - main - ERROR - Error during registration: 400: User already exists
+2025-03-31 15:11:46,349 - main - INFO - User kaanan222 attempting to log in.
+2025-03-31 15:11:46,369 - main - WARNING - Invalid login attempt for user: kaanan222
+2025-03-31 15:11:46,369 - main - ERROR - Error during login: 401: Invalid username or password
+2025-03-31 15:35:06,627 - main - INFO - Database initialized successfully.
+2025-03-31 15:35:20,559 - main - INFO - Rendering login/register page.
+2025-03-31 15:35:33,204 - main - INFO - Attempting to register user: zzzzz
+2025-03-31 15:35:33,215 - main - INFO - User zzzzz registered successfully
+2025-03-31 15:43:40,850 - main - INFO - Database initialized successfully.
+2025-03-31 15:43:45,467 - main - INFO - Rendering login/register page.
+2025-03-31 15:43:53,073 - main - INFO - Attempting to register user: kkk
+2025-03-31 15:43:53,095 - main - INFO - User kkk registered successfully
+2025-03-31 15:54:42,255 - main - INFO - Database initialized successfully.
+2025-03-31 15:54:50,763 - main - INFO - Rendering login/register page.
+2025-03-31 15:54:56,620 - main - INFO - User kaanan attempting to log in.
+2025-03-31 15:54:56,625 - main - WARNING - Invalid login attempt for user: kaanan
+2025-03-31 15:54:56,625 - main - ERROR - Error during login: 401: Invalid username or password
+2025-03-31 15:55:08,021 - main - INFO - Attempting to register user: kaanan
+2025-03-31 15:55:08,025 - main - INFO - User kaanan registered successfully
+2025-03-31 15:55:49,476 - main - CRITICAL - Database connection/setup failed: (sqlite3.DatabaseError) file is not a database
+[SQL: PRAGMA main.table_info("users")]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-03-31 16:00:21,242 - main - INFO - Database initialized successfully.
+2025-03-31 16:00:30,337 - main - INFO - Rendering login/register page.
+2025-03-31 16:00:36,517 - main - INFO - Attempting to register user: kaanan
+2025-03-31 16:00:36,518 - main - ERROR - Unexpected error: Simulated DB failure
+2025-03-31 16:05:05,099 - main - INFO - User kaanan attempting to log in.
+2025-03-31 16:05:05,123 - main - WARNING - Invalid login attempt for user: kaanan
+2025-03-31 16:05:05,124 - main - ERROR - Error during login: 401: Invalid username or password
+2025-03-31 16:32:28,909 - main - INFO - Database initialized successfully.
+2025-03-31 16:32:33,158 - main - INFO - Rendering login/register page.
+2025-03-31 16:32:40,007 - main - INFO - Attempting to register user: kaanan
+2025-03-31 16:32:40,015 - main - INFO - User kaanan registered successfully
+2025-03-31 16:32:48,387 - main - INFO - User kaanan attempting to log in.
+2025-03-31 16:32:48,389 - main - WARNING - Invalid login attempt for user: kaanan
+2025-03-31 16:33:09,202 - main - INFO - User kkk attempting to log in.
+2025-03-31 16:33:09,208 - main - WARNING - Invalid login attempt for user: kkk
+2025-03-31 16:37:57,880 - main - INFO - Database initialized successfully.
+2025-03-31 16:38:11,035 - main - INFO - Database initialized successfully.
+2025-03-31 16:38:15,368 - main - INFO - Rendering login/register page.
+2025-03-31 16:38:22,771 - main - INFO - Attempting to register user: kaanan
+2025-03-31 16:38:22,780 - main - WARNING - Registration failed: User kaanan already exists.
+2025-03-31 16:43:36,622 - main - INFO - Database initialized successfully.
+2025-03-31 16:43:39,259 - main - INFO - Rendering login/register page.
+2025-03-31 16:43:44,390 - main - INFO - Attempting to register user: kaanan
+2025-03-31 16:43:44,396 - main - WARNING - Registration failed: User kaanan already exists.
+2025-03-31 16:43:51,886 - main - INFO - User kaanan attempting to log in.
+2025-03-31 16:43:51,890 - main - WARNING - Invalid login attempt for user: kaanan
+2025-03-31 16:44:04,442 - main - INFO - User kaanan attempting to log in.
+2025-03-31 16:44:04,457 - main - WARNING - Invalid login attempt for user: kaanan
+2025-03-31 16:44:19,118 - main - INFO - Attempting to register user: kaanan
+2025-03-31 16:44:19,126 - main - WARNING - Registration failed: User kaanan already exists.
+2025-03-31 16:44:25,980 - main - INFO - Attempting to register user: kkk
+2025-03-31 16:44:25,990 - main - INFO - User kkk registered successfully
+2025-03-31 16:44:31,028 - main - INFO - User kkk attempting to log in.
+2025-03-31 16:44:31,030 - main - INFO - User kkk logged in successfully.
+2025-03-31 16:44:31,031 - main - ERROR - Error during login: 'redirect.html' not found in search path: 'templates'
+2025-03-31 16:45:26,776 - main - INFO - Database initialized successfully.
+2025-03-31 16:45:29,437 - main - INFO - Rendering login/register page.
+2025-03-31 16:45:33,973 - main - INFO - User kkk attempting to log in.
+2025-03-31 16:45:33,993 - main - INFO - User kkk logged in successfully.
+2025-04-02 14:43:40,573 - main - INFO - Database initialized successfully.
+2025-04-02 14:43:46,728 - main - INFO - Rendering login/register page.
+2025-04-02 14:45:35,817 - main - INFO - Database initialized successfully.
+2025-04-02 14:45:40,582 - main - INFO - Rendering login/register page.
+2025-04-02 14:45:58,786 - main - INFO - Attempting to register user: kaanan
+2025-04-02 14:45:58,795 - main - INFO - User kaanan registered successfully
+2025-04-02 14:46:50,209 - main - INFO - User kaanan attempting to log in.
+2025-04-02 14:46:50,215 - main - INFO - User kaanan logged in successfully.
+2025-04-02 14:46:50,216 - main - ERROR - Error during login: 'redirect.html' not found in search path: 'templates'
+2025-04-02 14:49:32,127 - main - INFO - Database initialized successfully.
+2025-04-02 14:49:35,195 - main - INFO - Rendering login/register page.
+2025-04-02 14:49:41,177 - main - INFO - User kaanan attempting to log in.
+2025-04-02 14:49:41,187 - main - INFO - User kaanan logged in successfully.
+2025-04-02 15:26:08,341 - main - INFO - Database initialized successfully.
+2025-04-02 15:26:55,271 - main - INFO - Rendering login/register page.
+2025-04-02 15:27:11,863 - main - INFO - User kaanan attempting to log in.
+2025-04-02 15:27:11,874 - main - INFO - User kaanan logged in successfully.
+2025-04-02 15:27:11,930 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-02 15:47:08,791 - main - INFO - Database initialized successfully.
+2025-04-02 15:47:31,765 - main - INFO - Rendering login/register page.
+2025-04-02 15:47:36,844 - main - INFO - User kaanan attempting to log in.
+2025-04-02 15:47:36,851 - main - INFO - User kaanan logged in successfully.
+2025-04-02 15:47:36,916 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-03 22:11:45,473 - main - INFO - Database initialized successfully.
+2025-04-03 22:11:49,407 - main - INFO - Rendering login/register page.
+2025-04-03 22:12:05,686 - main - INFO - Attempting to register user: kk
+2025-04-03 22:12:05,701 - main - INFO - User kk registered successfully
+2025-04-03 22:17:17,166 - main - INFO - Database initialized successfully.
+2025-04-03 22:17:19,516 - main - INFO - Rendering login/register page.
+2025-04-03 22:17:43,956 - main - INFO - Attempting to register user: kkk
+2025-04-03 22:17:43,968 - main - INFO - User kkk registered successfully
+2025-04-03 22:33:34,775 - main - INFO - Database initialized successfully.
+2025-04-03 22:33:38,236 - main - INFO - Rendering login/register page.
+2025-04-03 22:33:58,884 - main - INFO - Attempting to register user: kkkk
+2025-04-03 22:33:58,885 - main - ERROR - Error during registration: Crash test: Simulated failure
+2025-04-03 23:07:35,977 - main - INFO - Database initialized successfully.
+2025-04-03 23:07:51,706 - main - INFO - Rendering login/register page.
+2025-04-03 23:08:00,137 - main - INFO - Database initialized successfully.
+2025-04-03 23:08:03,047 - main - INFO - Rendering login/register page.
+2025-04-03 23:08:18,369 - main - INFO - Attempting to register user: kkkk
+2025-04-03 23:08:18,370 - main - ERROR - Error during registration: Crash test: Simulated failure
+2025-04-06 14:41:54,566 - main - INFO - Database initialized successfully.
+2025-04-06 14:41:58,596 - main - INFO - Rendering login/register page.
+2025-04-06 14:42:46,468 - main - INFO - User jjj attempting to log in.
+2025-04-06 14:42:46,478 - main - WARNING - Invalid login attempt for user: jjj
+2025-04-06 14:48:53,757 - main - INFO - Database initialized successfully.
+2025-04-06 14:48:56,301 - main - INFO - Rendering login/register page.
+2025-04-06 14:49:14,550 - main - INFO - Attempting to register user: kaanan
+2025-04-06 14:49:14,557 - main - WARNING - Registration failed: User kaanan already exists.
+2025-04-06 14:51:52,405 - main - INFO - Database initialized successfully.
+2025-04-06 14:51:54,867 - main - INFO - Rendering login/register page.
+2025-04-06 14:52:04,373 - main - INFO - Attempting to register user: kaanan
+2025-04-06 14:52:04,381 - main - WARNING - Registration failed: User kaanan already exists.
+2025-04-06 14:52:36,880 - main - INFO - Database initialized successfully.
+2025-04-06 14:52:38,794 - main - INFO - Rendering login/register page.
+2025-04-06 14:52:46,697 - main - INFO - Attempting to register user: kaanan
+2025-04-06 14:52:46,703 - main - WARNING - Registration failed: User kaanan already exists.
+2025-04-06 14:55:12,656 - main - INFO - User john attempting to log in.
+2025-04-06 14:55:12,660 - main - WARNING - Invalid login attempt for user: john
+2025-04-06 14:57:26,142 - main - INFO - Database initialized successfully.
+2025-04-06 14:57:28,602 - main - INFO - Rendering login/register page.
+2025-04-06 14:57:50,207 - main - INFO - Attempting to register user: zz
+2025-04-06 14:57:50,207 - main - ERROR - Error during registration: Crash test: Simulated failure
+2025-04-16 14:36:25,044 - main - INFO - Database initialized successfully.
+2025-04-16 14:36:45,867 - main - INFO - Rendering login/register page.
+2025-04-16 14:37:27,000 - main - INFO - User kaanan attempting to log in.
+2025-04-16 14:37:27,007 - main - INFO - User kaanan logged in successfully.
+2025-04-16 14:37:27,069 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-16 14:37:27,069 - main - ERROR - Error during login: 'dashboard.html' not found in search path: 'templates'
+2025-04-16 14:37:46,708 - main - INFO - Attempting to register user: kaanan
+2025-04-16 14:37:46,712 - main - WARNING - Registration failed: User kaanan already exists.
+2025-04-16 14:37:57,667 - main - INFO - User kaanan attempting to log in.
+2025-04-16 14:37:57,672 - main - INFO - User kaanan logged in successfully.
+2025-04-16 14:37:57,695 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-16 14:37:57,696 - main - ERROR - Error during login: 'dashboard.html' not found in search path: 'templates'
+2025-04-16 14:38:46,577 - main - INFO - Database initialized successfully.
+2025-04-16 14:38:55,815 - main - INFO - User kaanan attempting to log in.
+2025-04-16 14:38:55,832 - main - INFO - User kaanan logged in successfully.
+2025-04-16 14:38:55,877 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-16 14:39:02,565 - main - INFO - User kaanan attempting to log in.
+2025-04-16 14:39:02,568 - main - INFO - User kaanan logged in successfully.
+2025-04-16 14:39:02,591 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-16 14:56:56,011 - main - INFO - Database initialized successfully.
+2025-04-16 14:57:07,284 - main - INFO - Rendering login/register page.
+2025-04-16 14:57:12,053 - main - INFO - User kaanan attempting to log in.
+2025-04-16 14:57:12,058 - main - INFO - User kaanan logged in successfully.
+2025-04-16 14:57:12,113 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-04-16 14:57:15,901 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-01 13:15:13,955 - main - INFO - Database initialized successfully.
+2025-05-01 13:15:16,096 - main - INFO - Rendering login/register page.
+2025-05-01 13:15:23,508 - main - INFO - User kaanan attempting to log in.
+2025-05-01 13:15:23,522 - main - INFO - User kaanan logged in successfully.
+2025-05-01 13:15:23,577 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-01 13:15:32,310 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-01 15:34:13,981 - main - INFO - Database initialized successfully.
+2025-05-01 15:34:29,031 - main - INFO - Rendering login/register page.
+2025-05-01 15:34:57,016 - main - INFO - User kaanan attempting to log in.
+2025-05-01 15:34:57,024 - main - INFO - User kaanan logged in successfully.
+2025-05-01 15:34:57,105 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-01 15:35:08,533 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-11 21:19:09,310 - main - INFO - Database initialized successfully.
+2025-05-11 21:19:28,321 - main - INFO - Rendering login/register page.
+2025-05-11 21:19:45,575 - main - INFO - Attempting to register user: kaanan
+2025-05-11 21:19:45,588 - main - INFO - User kaanan registered successfully
+2025-05-11 21:19:53,592 - main - INFO - User kaanan attempting to log in.
+2025-05-11 21:19:53,593 - main - INFO - User kaanan logged in successfully.
+2025-05-11 21:19:53,662 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-11 21:19:57,878 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-12 14:29:47,912 - main - INFO - Database initialized successfully.
+2025-05-12 14:30:00,545 - main - INFO - Rendering login/register page.
+2025-05-12 14:30:17,516 - main - INFO - Attempting to register user: kaanan
+2025-05-12 14:30:17,531 - main - WARNING - Registration failed: User kaanan already exists.
+2025-05-12 14:40:43,713 - main - INFO - Database initialized successfully.
+2025-05-12 14:40:49,880 - main - INFO - Rendering login/register page.
+2025-05-12 14:40:49,883 - main - ERROR - Template rendering failed: 'index.html' not found in search path: 'templates'
+2025-05-12 14:41:17,431 - main - INFO - Rendering login/register page.
+2025-05-12 14:41:17,432 - main - ERROR - Template rendering failed: 'index.html' not found in search path: 'templates'
+2025-05-12 14:42:52,140 - main - INFO - Database initialized successfully.
+2025-05-12 14:42:57,639 - main - INFO - Rendering login/register page.
+2025-05-12 14:43:06,446 - main - INFO - Attempting to register user: kaanan
+2025-05-12 14:43:06,454 - main - INFO - User kaanan registered successfully
+2025-05-12 14:43:13,492 - main - INFO - User kaanan attempting to log in.
+2025-05-12 14:43:13,494 - main - INFO - User kaanan logged in successfully.
+2025-05-12 14:43:13,563 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-12 14:43:17,520 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-12 14:47:14,434 - main - INFO - Database initialized successfully.
+2025-05-12 14:47:19,318 - main - INFO - Rendering login/register page.
+2025-05-12 14:47:26,522 - main - INFO - Attempting to register user: kaanan
+2025-05-12 14:47:26,532 - main - INFO - User kaanan registered successfully
+2025-05-12 14:47:32,217 - main - INFO - User kaanan attempting to log in.
+2025-05-12 14:47:32,218 - main - INFO - User kaanan logged in successfully.
+2025-05-12 14:47:32,276 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-12 14:47:36,015 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 500 Internal Server Error"
+2025-05-12 14:47:36,016 - main - ERROR - Unexpected error while submitting order: Server error '500 Internal Server Error' for url 'http://localhost:8001/checkout'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-05-12 14:52:37,918 - main - INFO - Database initialized successfully.
+2025-05-12 14:52:46,707 - main - INFO - Rendering login/register page.
+2025-05-12 14:52:52,491 - main - INFO - User kaanan attempting to log in.
+2025-05-12 14:52:52,495 - main - INFO - User kaanan logged in successfully.
+2025-05-12 14:52:52,538 - httpx - INFO - HTTP Request: GET http://localhost:8001/api/products "HTTP/1.1 200 OK"
+2025-05-12 14:52:56,109 - httpx - INFO - HTTP Request: POST http://localhost:8001/checkout "HTTP/1.1 201 Created"
+2025-05-12 16:05:40,059 - login - INFO - Database initialized successfully.
+2025-05-12 16:06:28,719 - login - INFO - Database initialized successfully.
+2025-05-12 16:08:35,329 - login - INFO - Database initialized successfully.
+2025-05-12 16:08:37,468 - login - INFO - Rendering login/register page.
+2025-05-12 16:08:45,639 - login - INFO - User kaanan attempting to log in.
+2025-05-12 16:08:45,644 - login - INFO - User kaanan logged in successfully.

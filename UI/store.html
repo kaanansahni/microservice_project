@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Shop</title>
+    <style>
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        .counter {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Shop</h1>
+
+    {% for product in products %}
+    <div class="product">
+        <div>
+            <strong>{{ product.name }}</strong><br>
+            Price: ${{ '%.2f' % product.price }}
+        </div>
+        <div class="counter">
+            <button onclick="decrement('{{ product.name }}')">-</button>
+            <span id="count-{{ product.name }}">0</span>
+            <button onclick="increment('{{ product.name }}')">+</button>
+        </div>
+    </div>
+    {% endfor %}
+
+    <hr>
+    <button onclick="checkout()">Checkout</button>
+
+    <script>
+        const counts = {};
+    
+        function increment(name) {
+            counts[name] = (counts[name] || 0) + 1;
+            document.getElementById('count-' + name).innerText = counts[name];
+        }
+    
+        function decrement(name) {
+            if (!counts[name]) counts[name] = 0;
+            if (counts[name] > 0) counts[name] -= 1;
+            document.getElementById('count-' + name).innerText = counts[name];
+        }
+    
+        async function checkout() {
+            const cart = {};
+            for (const item in counts) {
+                if (counts[item] > 0) {
+                    cart[item] = counts[item];
+                }
+            }
+    
+            if (Object.keys(cart).length === 0) {
+                alert("Your cart is empty!");
+                return;
+            }
+    
+            const username = "{{ username }}";
+
+
+            const response = await fetch("/submit-order",
+                {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ username: username, cart: cart })
+            });
+    
+            const result = await response.json();
+            alert(result.message || "Checkout complete!");
+        }
+    </script>
+    
+</body>
+</html>
